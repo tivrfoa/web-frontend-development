@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+
+/* for all window widths */
+#content {
+  float: right ;
+  width: 80% ;
+  /* border: 1px solid black;*/
+}
+#navbar {
+  float: right;
+  width: 20%;
+  /* border: 1px solid black;*/
+}
+@media only screen and (max-width: 629px) {
+  /* for widths less than or equal to 629 pixels */
+  #content {
+    float: none ;
+    width: 100% ;
+  }
+  #navbar {
+    float: none ;
+    width: 100% ;
+  }
+}
+@media only screen and (max-width: 629px) {
+  /* for widths less than or equal to 629 pixels */
+  #content {
+    float: none ;
+    width: 100% ;
+  }
+  #navbar {
+    float: none ;
+    width: 100% ;
+  }
+}
+</style>
+<body>
+<div id="container">
+  <div id="content">Content here</div>
+  <div id="navbar">Navigation</div>
+</div>
+</body>
+</html>
